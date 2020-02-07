@@ -1,5 +1,6 @@
 cc_library(
     name = "bimg",
+    visibility = ["//visibility:public"],
     srcs = [
         "src/bimg_p.h",
         "src/config.h",
